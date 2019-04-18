@@ -76,7 +76,7 @@ And that's it! Once your Lambda is deployed, it will be able to access the Lambd
 
 ## Cleanup
 
-In order to delete our Serverless Application recently deployed you can use the following AWS CLI Command:
+In order to delete our Lambda, you need to delete the CloudFormation stack that was created. To do so you can use the following AWS CLI Command:
 
 ```bash
 aws cloudformation delete-stack --stack-name <STACK_NAME>
